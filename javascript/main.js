@@ -36,8 +36,8 @@ function isMatch(cardOne, cardTwo) {
     else {
         console.log("No match");
         setTimeout(function() {
-            cardOne.innerHTML = '<img src="joker.png" alt="Joker Deck"/>';    
-            cardTwo.innerHTML = '<img src="joker.png" alt="Joker Deck"/>';    
+            cardOne.innerHTML = '<img src="images/joker.png" alt="Joker Deck"/>';    
+            cardTwo.innerHTML = '<img src="images/joker.png" alt="Joker Deck"/>';    
         }, 1000);   
     }
 }
