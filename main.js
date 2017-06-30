@@ -11,7 +11,7 @@ function createCards() {
         createCards[i].id = i;
         createCards[i].setAttribute("data-card", cards[i]);
         createCards[i].addEventListener("click", isTwoCards);
-        createCards[i].innerHTML = '<img src="joker.png" alt="Joker Deck"/>';
+        createCards[i].innerHTML = '<img src="images/joker.png" alt="Joker Deck"/>';
         
         gameBoard.appendChild(createCards[i]);   
     }
@@ -19,7 +19,7 @@ function createCards() {
 
 function isTwoCards() {
     var dataCard = this.getAttribute('data-card');    
-    this.innerHTML = '<img src="' + dataCard + '.png" alt="' + dataCard + '"/>';
+    this.innerHTML = '<img src="images/' + dataCard + '.png" alt="' + dataCard + '"/>';
     
     if (cardsInPlay.length === 2) {
         isMatch(cardsInPlay[0], cardsInPlay[1]);
