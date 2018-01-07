@@ -1,8 +1,6 @@
 # Memory Game
 > A simple site that tests your guessing skills.
 
-[![Build Status][travis-image]][travis-url]
-
 	https://yamilburgos.github.io/MemoryGame
 
 ![](demo.png)
